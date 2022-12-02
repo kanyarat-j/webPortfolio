@@ -1,0 +1,52 @@
+* {
+  box-sizing: border-box;
+}
+
+.skill-container {
+  color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  animation: normal 1s ease-in;
+  transform: translateY(0) scaleY(1);
+  transition: all 0.4s ease-in-out;
+}
+
+.skill-colletion {
+  margin: 4rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  height: 30rem;
+}
+
+.skill-card {
+  display: flex;
+  flex-direction: column;
+}
+
+.skill-card > span {
+  font-weight: 700;
+  text-align: center;
+  margin-top: 1.5rem;
+}
+
+.skill-card > img {
+  width: auto;
+  height: 8rem;
+  margin: 4rem 4rem 0;
+}
+@media screen and (max-width: 940px) {
+  .skill-card {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .skill-card > img {
+    width: auto;
+    height: 6rem;
+    margin: 2rem;
+  }
+}

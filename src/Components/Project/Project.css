@@ -1,0 +1,73 @@
+.project-container {
+  color: black;
+  flex-wrap: wrap;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.project-collection {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  color: black;
+}
+
+.project-card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  border-radius: 15px;
+  margin: 15px;
+
+  text-align: center;
+}
+
+
+.project-card > img {
+  height: auto;
+  width: 400px;
+  object-fit: cover;
+  overflow: hidden;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.project-name {
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 3rem;
+}
+
+.project-detail {
+  font-size: 1.5rem;
+
+}
+.github-link {
+  width: 2.6rem;
+  margin: 1.5rem 0;
+}
+
+.project-card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card-detail {
+  padding: 2px 16px;
+}
+
+@media screen and (max-width: 700px) {
+  .project-collection {
+    width: 100%;
+    /* display: block; */
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .project-card > img {
+    height: auto;
+    width: 100%;
+    object-fit: fill;
+    overflow: hidden;
+  }
+}

@@ -1,0 +1,154 @@
+.about-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  grid-gap: 20rem;
+}
+
+.about-one {
+ 
+  /* line-height: 8rem; */
+  margin-top: 10rem;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  /* grid-gap:20rem; */
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-evenly;
+
+}
+
+.about-one-text {
+  font-size: 4rem;
+  line-height: 8rem; 
+  margin-bottom: 2rem;
+}
+
+
+.button-resume {
+  background-color: white;
+  border: none;
+  color: rgb(77, 74, 74);
+  padding: 0.5rem 3.2rem;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 3rem;
+  margin: 0.4rem 0.2rem;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; 
+  transition-duration: 0.4s;
+  font-weight: 600;
+  border-radius: 15px;
+  padding: 1.5rem 3.2rem;
+}
+
+.button-resume:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.about-two {
+ 
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-evenly;
+
+}
+
+.about-container img {
+  width: 380px;
+  border-radius: 25%;
+}
+
+.about-two-text {
+  margin-right: 10rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-right: 10rem;
+  flex-wrap: wrap;
+  width: 50%;
+}
+
+.about-two-text > h1 {
+  font-size: 4rem;
+  margin-bottom: 3rem;
+  line-height: 6rem;
+  color: rgb(255, 255, 255);
+}
+
+.about-two-text > span {
+  font-size: 3rem;
+  margin-bottom: 4rem;
+  line-height: 4rem;
+  color: rgb(255, 255, 255);
+
+}
+
+
+
+@media screen and (max-width: 940px) {
+  .about-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .about-two-text > h1 {
+    font-size: 5rem;
+    margin-bottom: 1.5rem;
+    line-height: 5rem;
+    color: rgb(255, 255, 255);
+  }
+
+  .about-two-text > span {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    line-height: 3rem;
+    color: rgb(255, 255, 255);
+  }
+
+  .about-container img {
+    display: none;
+  }
+
+  .about-one-text {
+    font-size: 3rem;
+    line-height: 5rem; 
+    
+  }
+
+}
+
+
+@media screen and (max-width: 420px) {
+  
+  .about-two-text > h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    line-height: 4rem;
+ 
+  }
+
+  .about-two-text > span {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    line-height: 3rem;
+    color: rgb(255, 255, 255);
+  }
+
+  .about-container img {
+    display: none;
+  }
+
+  .about-one-text {
+    font-size: 3rem;
+    line-height: 5rem; 
+    
+  }
+
+}
