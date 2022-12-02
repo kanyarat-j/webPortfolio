@@ -9,7 +9,7 @@ export const ProjectCard = (props) => {
         <span className="project-name">{project.name}</span>
         <p className="project-detail">{project.detail}</p>
         <a href={project.link} target="_blank">
-            <img className="github-link" src="src/Components/image/github.png" />
+            <img className="github-link" src="./image/github.png" />
         </a>
       </div>
     </div>

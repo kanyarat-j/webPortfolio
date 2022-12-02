@@ -14,16 +14,16 @@ function About() {
           learner.
         </h1>
         </div>
-          <a href="src\Components\image\CV_kanyaratJ.pdf" target="_blank" className="button-resume">Resume</a>
+          <a href="./image/CV_kanyaratJ.pdf" target="_blank" className="button-resume">Resume</a>
         </div>
 
       
-        <img src="src\Components\image\virus.gif" alt="gif-one" />
+        <img src="./image/virus.gif" alt="gif-one" />
         
       </div>
 
       <div className="about-two">
-        <img src="src\Components\image\ab-testing.gif" alt="gif-two" />
+        <img src="./image/ab-testing.gif" alt="gif-two" />
         <div className="about-two-text">
           <h1>Kanyarat Jiramahawittayakul</h1>
           <span>

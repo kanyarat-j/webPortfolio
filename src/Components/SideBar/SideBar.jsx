@@ -9,7 +9,7 @@ function NavBar() {
         <div className="profile-img-container">
           <img
             className="profile-img"
-            src="src\Components\image\IMG_0631.jpg"
+            src="./image/IMG_0631.jpg"
           />
         </div>
         <Link className="sidebar-item" to="/">
@@ -28,10 +28,10 @@ function NavBar() {
 
       <div className="sidebar-link">
         <a href="https://github.com/kanyarat-j" target="_blank">
-          <img src="src\Components\image\github.png" alt="github-link" />
+          <img src="./image/github.png" alt="github-link" />
         </a>
         <a href="https://www.linkedin.com/in/kanyarat-j/" target="_blank">
-          <img src="src\Components\image\linkedin.png" alt="linkedin-link" />
+          <img src="./image/linkedin.png" alt="linkedin-link" />
         </a>
       </div>
     </div>

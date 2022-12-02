@@ -3,7 +3,7 @@ import React from 'react'
 export const SkillCard = (props) => {
     let skill = props.skill
     let filename = skill.name.toLowerCase().replace(" ","")
-    let file = `src/Components/image/skill/${filename}.png`
+    let file = `./image/skill/${filename}.png`
 
   return (
     <div className="skill-card">
