@@ -6,8 +6,8 @@ function Experience() {
   const experiences = [
     {
       role: "Junior Software Developer Learner",
-      period: "DEC 2019 – JULY 2020",
-      org: "INTERNATIONAL LABORATORIES CORP., LTD.",
+      period: "SEP 2022 – DEC 2022",
+      org: "GENERATION THAILAND",
       link: "https://thailand.generation.org/",
       detail: [
         "Learned how to build web applications from React, Node.js, and MongoDB.",
