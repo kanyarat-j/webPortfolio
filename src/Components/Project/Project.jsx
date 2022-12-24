@@ -17,14 +17,7 @@ function Project() {
       detail: "Create a Playlist App With the Spotify API",
       img: "./image/jammming.PNG",
       link: "https://github.com/kanyarat-j/at-jammming",
-    },
-    {
-      id: 3,
-      name: "Final Project",
-      detail: "...",
-      img: "./image/jammming.PNG",
-      link: "https://github.com/Fiw0202/ExercireTrack",
-    },
+    }
   ];
 
   let itemList = [];
@@ -41,3 +34,13 @@ function Project() {
 }
 
 export default Project;
+
+
+
+    // {
+    //   id: 3,
+    //   name: "Final Project",
+    //   detail: "...",
+    //   img: "./image/jammming.PNG",
+    //   link: "https://github.com/Fiw0202/ExercireTrack",
+    // }
